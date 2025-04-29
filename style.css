@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-top: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ol {
+    padding-left: 40px;
+    margin-bottom: 20px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.img-style {
+    width: 500px;
+    border: 5px solid #555;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#registration-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color:red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
+
+form input[type="submit"]:hover {
+    background-color: #27ae60;
+}
